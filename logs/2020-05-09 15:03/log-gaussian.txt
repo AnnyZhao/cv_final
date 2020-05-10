@@ -1,0 +1,51 @@
+Let's use 4 GPUs!
+Training model gaussian
+Evaluating model at epoch 0
+...............
+                road: IoU: 0.01
+            sidewalk: IoU: 0.00
+            building: IoU: 0.10
+                wall: IoU: 0.00
+               fence: IoU: 0.00
+                pole: IoU: 0.09
+       traffic light: IoU: 0.04
+        traffic sign: IoU: 0.10
+          vegetation: IoU: 0.54
+             terrain: IoU: 0.03
+                 sky: IoU: 0.68
+              person: IoU: 0.18
+               rider: IoU: 0.00
+                 car: IoU: 0.44
+               truck: IoU: 0.02
+                 bus: IoU: 0.04
+               train: IoU: 0.01
+          motorcycle: IoU: 0.00
+             bicycle: IoU: 0.14
+                misc: IoU: 0.17
+                mean: IoU: 0.13
+Validation Loss: 3.3279
+Evaluting best model (3.327858158826828)
+...............
+                road: IoU: 0.01
+            sidewalk: IoU: 0.00
+            building: IoU: 0.10
+                wall: IoU: 0.00
+               fence: IoU: 0.00
+                pole: IoU: 0.09
+       traffic light: IoU: 0.04
+        traffic sign: IoU: 0.10
+          vegetation: IoU: 0.54
+             terrain: IoU: 0.03
+                 sky: IoU: 0.68
+              person: IoU: 0.18
+               rider: IoU: 0.00
+                 car: IoU: 0.44
+               truck: IoU: 0.02
+                 bus: IoU: 0.04
+               train: IoU: 0.01
+          motorcycle: IoU: 0.00
+             bicycle: IoU: 0.14
+                misc: IoU: 0.17
+                mean: IoU: 0.13
+Final Validation Loss: 3.3279
+Finished Training gaussian

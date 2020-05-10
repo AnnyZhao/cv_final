@@ -1,0 +1,12 @@
+1. Download annotated labels (gtFile_trainvaltest.zip)
+2. Download input images (leftImg8bit_trainvaltest.zip)
+- Stored on malleus at /mnt/data/anzhao2/cityscapes
+3. Find dataloader for PyTorch, maybe downsize
+4. Train base ResNet implementation
+5. Augment with
+- scale factor
+- position
+- gaussian-composed kernel
+- difference-of-gaussian kernel
+- gabor filters
+- gaussian-based deformation

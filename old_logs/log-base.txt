@@ -1,0 +1,49 @@
+Let's use 4 GPUs!
+Training model base
+Evaluating model at epoch 0
+                road: IoU: 0.83
+            sidewalk: IoU: 0.43
+            building: IoU: 0.67
+                wall: IoU: 0.16
+               fence: IoU: 0.18
+                pole: IoU: 0.19
+       traffic light: IoU: 0.17
+        traffic sign: IoU: 0.31
+          vegetation: IoU: 0.79
+             terrain: IoU: 0.28
+                 sky: IoU: 0.80
+              person: IoU: 0.42
+               rider: IoU: 0.06
+                 car: IoU: 0.75
+               truck: IoU: 0.06
+                 bus: IoU: 0.13
+               train: IoU: 0.09
+          motorcycle: IoU: 0.12
+             bicycle: IoU: 0.40
+                misc: IoU: 0.59
+                mean: IoU: 0.37
+Validation Loss: 0.8376
+Evaluting best model (0.8376482226848603)
+                road: IoU: 0.83
+            sidewalk: IoU: 0.43
+            building: IoU: 0.67
+                wall: IoU: 0.16
+               fence: IoU: 0.18
+                pole: IoU: 0.19
+       traffic light: IoU: 0.17
+        traffic sign: IoU: 0.31
+          vegetation: IoU: 0.79
+             terrain: IoU: 0.28
+                 sky: IoU: 0.80
+              person: IoU: 0.42
+               rider: IoU: 0.06
+                 car: IoU: 0.75
+               truck: IoU: 0.06
+                 bus: IoU: 0.13
+               train: IoU: 0.09
+          motorcycle: IoU: 0.12
+             bicycle: IoU: 0.40
+                misc: IoU: 0.59
+                mean: IoU: 0.37
+Final Validation Loss: 0.8376
+Finished Training base

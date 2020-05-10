@@ -1,0 +1,99 @@
+Let's use 4 GPUs!
+Training model base
+Evaluating model at epoch 0
+...............
+                road: IoU: 0.00
+            sidewalk: IoU: 0.00
+            building: IoU: 0.08
+                wall: IoU: 0.00
+               fence: IoU: 0.00
+                pole: IoU: 0.09
+       traffic light: IoU: 0.04
+        traffic sign: IoU: 0.11
+          vegetation: IoU: 0.52
+             terrain: IoU: 0.05
+                 sky: IoU: 0.49
+              person: IoU: 0.20
+               rider: IoU: 0.02
+                 car: IoU: 0.47
+               truck: IoU: 0.01
+                 bus: IoU: 0.00
+               train: IoU: 0.01
+          motorcycle: IoU: 0.00
+             bicycle: IoU: 0.24
+                misc: IoU: 0.17
+                mean: IoU: 0.13
+Validation Loss: 3.3371
+Evaluating model at epoch 7
+...............
+                road: IoU: 0.00
+            sidewalk: IoU: 0.00
+            building: IoU: 0.08
+                wall: IoU: 0.00
+               fence: IoU: 0.01
+                pole: IoU: 0.08
+       traffic light: IoU: 0.08
+        traffic sign: IoU: 0.20
+          vegetation: IoU: 0.29
+             terrain: IoU: 0.08
+                 sky: IoU: 0.71
+              person: IoU: 0.16
+               rider: IoU: 0.03
+                 car: IoU: 0.51
+               truck: IoU: 0.04
+                 bus: IoU: 0.05
+               train: IoU: 0.01
+          motorcycle: IoU: 0.07
+             bicycle: IoU: 0.29
+                misc: IoU: 0.16
+                mean: IoU: 0.14
+Validation Loss: 5.3305
+Evaluating model at epoch 14
+...............
+                road: IoU: 0.00
+            sidewalk: IoU: 0.00
+            building: IoU: 0.07
+                wall: IoU: 0.00
+               fence: IoU: 0.01
+                pole: IoU: 0.09
+       traffic light: IoU: 0.10
+        traffic sign: IoU: 0.20
+          vegetation: IoU: 0.34
+             terrain: IoU: 0.05
+                 sky: IoU: 0.69
+              person: IoU: 0.23
+               rider: IoU: 0.05
+                 car: IoU: 0.49
+               truck: IoU: 0.03
+                 bus: IoU: 0.05
+               train: IoU: 0.01
+          motorcycle: IoU: 0.06
+             bicycle: IoU: 0.30
+                misc: IoU: 0.15
+                mean: IoU: 0.15
+Validation Loss: 5.7876
+Evaluting best model (3.3370513882637023)
+...............
+                road: IoU: 0.00
+            sidewalk: IoU: 0.00
+            building: IoU: 0.08
+                wall: IoU: 0.00
+               fence: IoU: 0.00
+                pole: IoU: 0.09
+       traffic light: IoU: 0.04
+        traffic sign: IoU: 0.11
+          vegetation: IoU: 0.52
+             terrain: IoU: 0.05
+                 sky: IoU: 0.49
+              person: IoU: 0.20
+               rider: IoU: 0.02
+                 car: IoU: 0.47
+               truck: IoU: 0.01
+                 bus: IoU: 0.00
+               train: IoU: 0.01
+          motorcycle: IoU: 0.00
+             bicycle: IoU: 0.24
+                misc: IoU: 0.17
+                mean: IoU: 0.13
+Final Validation Loss: 3.3371
+Finished Training base

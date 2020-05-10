@@ -1,0 +1,18 @@
+Finished experimental run of gaussian model for 15 epochs.
+
+Base model failed with:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/anzhao2/ECE549/final/train.py", line 52, in <module>
+    run_train(model_name='base', model_f=make_base_model, EPOCHS=epochs, log_dir=log_dir)
+  File "/home/anzhao2/ECE549/final/lib/training.py", line 72, in run_train
+    model = model_f()
+  File "/home/anzhao2/ECE549/final/train.py", line 34, in make_base_model
+    resnet18 = base_model.ResNet18(pretrained=True)
+  File "/home/anzhao2/ECE549/final/lib/base_model.py", line 26, in __init__
+    for module in recursive_iterate_modules(self.net):
+NameError: name 'recursive_iterate_modules' is not defined
+(venv)anzhao2@malleus:~/ECE549/final$ python3 -m train --epochs 105
