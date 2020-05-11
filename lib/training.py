@@ -85,12 +85,13 @@ def run_train(model_name: str, model_f, EPOCHS: int, log_dir: str):
 
     import torch.optim as optim
     optimizer = optim.Adam(model.parameters(), lr=0.005)
-    lr_scheduler = optim.lr_scheduler.ReduceLROnPlateau(
-        optimizer,
-        factor=0.2,
-        patience=5,
-        cooldown=5,
-        verbose=True)
+    # lr_scheduler = optim.lr_scheduler.ReduceLROnPlateau(
+    #     optimizer,
+    #     factor=0.2,
+    #     patience=5,
+    #     cooldown=5,
+    #     verbose=True)
+    lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=30, gamma=0.2)
 
     train_loss_over_epochs = []
     val_loss_over_epochs = []
@@ -141,7 +142,7 @@ def run_train(model_name: str, model_f, EPOCHS: int, log_dir: str):
 
             # Normalizing the loss by the total number of train batches
             running_loss /= len(train_dataloader)
-            lr_scheduler.step(running_loss)
+            lr_scheduler.step()
             # print('[%d] loss: %.3f' %
             #    (epoch + 1, running_loss))
 
