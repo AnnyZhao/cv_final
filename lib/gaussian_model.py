@@ -28,7 +28,7 @@ class ResNet18(nn.Module):
         for module in recursive_iterate_modules(self.net):
             if isinstance(module, torch.nn.BatchNorm2d):
                 module.momentum = 0.02
- 
+
     def forward(self, x):
         out = {}
         for name, module in self.net._modules.items():
@@ -44,6 +44,8 @@ class GaussianModel(nn.Module):
     def __init__(self, pretrained_net):
         super(GaussianModel, self).__init__()
         self.pretrained_net = pretrained_net
+
+        self.initial_gaussian = GaussianKernel(in_count=3)
 
         self.deconv4 = nn.ConvTranspose2d(512, 256, 3, stride=2, padding=1, output_padding=1)
         self.deconv4_bn = SynchronizedBatchNorm2d(256, momentum=0.02)
@@ -67,12 +69,13 @@ class GaussianModel(nn.Module):
 
 
     def forward(self, x):
+        x = self.initial_gaussian(x)
         output = self.pretrained_net(x)
         x5 = output["layer4"]
         x4 = output["layer3"]
         x3 = output["layer2"]
         x2 = output["layer1"]
-        
+
         x = x5
         x = self.prelu4(self.deconv4(x))
         x = self.deconv4_bn(x + x4)

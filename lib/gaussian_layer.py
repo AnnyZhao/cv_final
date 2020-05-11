@@ -16,7 +16,7 @@ class GaussianKernel(nn.Module):
         raw_param[:, :2] += torch.rand_like(raw_param[:, :2]) * 0.1
         self.covariance = torch.nn.Parameter(raw_param, requires_grad=True)
 
-    def get_gaussian_kernel(self, kernel_size=3, padding=1, channels=32) -> nn.Conv2d:
+    def get_gaussian_kernel(self, kernel_size=5, padding=2, channels=32) -> nn.Conv2d:
         # Create a x, y coordinate grid of shape (kernel_size, kernel_size, 2)
         x_coord = torch.arange(kernel_size)
         x_grid = x_coord.repeat(kernel_size).view(kernel_size, kernel_size)
@@ -57,9 +57,9 @@ class GaussianKernel(nn.Module):
         gaussian_filter.weight.data = gaussian_kernel
         gaussian_filter.weight.requires_grad = True
         gaussian_filter = gaussian_filter.to(self.covariance.device)
-        
+
         return gaussian_filter
-    
+
     def forward(self, x):
         # x should be in the form of [N, C, H, W]
         filt = self.get_gaussian_kernel(channels=self.in_count)
