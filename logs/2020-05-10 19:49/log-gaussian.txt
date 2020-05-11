@@ -1,0 +1,387 @@
+Let's use 4 GPUs!
+Training model gaussian
+Evaluating model at epoch 0, training loss was 0.9382173644529807
+...............
+                road: IoU: 0.80
+            sidewalk: IoU: 0.45
+            building: IoU: 0.72
+                wall: IoU: 0.20
+               fence: IoU: 0.19
+                pole: IoU: 0.26
+       traffic light: IoU: 0.17
+        traffic sign: IoU: 0.32
+          vegetation: IoU: 0.78
+             terrain: IoU: 0.32
+                 sky: IoU: 0.78
+              person: IoU: 0.46
+               rider: IoU: 0.07
+                 car: IoU: 0.66
+               truck: IoU: 0.06
+                 bus: IoU: 0.01
+               train: IoU: 0.05
+          motorcycle: IoU: 0.07
+             bicycle: IoU: 0.43
+                misc: IoU: 0.52
+                mean: IoU: 0.37
+Validation Loss: 0.8532
+Evaluating model at epoch 7, training loss was 0.5100826190935599
+...............
+                road: IoU: 0.87
+            sidewalk: IoU: 0.57
+            building: IoU: 0.78
+                wall: IoU: 0.24
+               fence: IoU: 0.22
+                pole: IoU: 0.33
+       traffic light: IoU: 0.23
+        traffic sign: IoU: 0.41
+          vegetation: IoU: 0.84
+             terrain: IoU: 0.41
+                 sky: IoU: 0.81
+              person: IoU: 0.49
+               rider: IoU: 0.27
+                 car: IoU: 0.81
+               truck: IoU: 0.25
+                 bus: IoU: 0.35
+               train: IoU: 0.11
+          motorcycle: IoU: 0.17
+             bicycle: IoU: 0.38
+                misc: IoU: 0.57
+                mean: IoU: 0.46
+Validation Loss: 0.6211
+Evaluating model at epoch 14, training loss was 0.44928219189514984
+...............
+                road: IoU: 0.88
+            sidewalk: IoU: 0.58
+            building: IoU: 0.80
+                wall: IoU: 0.26
+               fence: IoU: 0.28
+                pole: IoU: 0.32
+       traffic light: IoU: 0.31
+        traffic sign: IoU: 0.40
+          vegetation: IoU: 0.85
+             terrain: IoU: 0.39
+                 sky: IoU: 0.82
+              person: IoU: 0.52
+               rider: IoU: 0.30
+                 car: IoU: 0.84
+               truck: IoU: 0.25
+                 bus: IoU: 0.34
+               train: IoU: 0.12
+          motorcycle: IoU: 0.15
+             bicycle: IoU: 0.46
+                misc: IoU: 0.57
+                mean: IoU: 0.47
+Validation Loss: 0.6076
+Evaluating model at epoch 21, training loss was 0.4146252229407027
+...............
+                road: IoU: 0.89
+            sidewalk: IoU: 0.58
+            building: IoU: 0.75
+                wall: IoU: 0.22
+               fence: IoU: 0.23
+                pole: IoU: 0.32
+       traffic light: IoU: 0.30
+        traffic sign: IoU: 0.43
+          vegetation: IoU: 0.83
+             terrain: IoU: 0.37
+                 sky: IoU: 0.86
+              person: IoU: 0.50
+               rider: IoU: 0.30
+                 car: IoU: 0.82
+               truck: IoU: 0.22
+                 bus: IoU: 0.28
+               train: IoU: 0.07
+          motorcycle: IoU: 0.18
+             bicycle: IoU: 0.47
+                misc: IoU: 0.59
+                mean: IoU: 0.46
+Validation Loss: 0.6171
+Evaluating model at epoch 28, training loss was 0.3622255686167124
+...............
+                road: IoU: 0.89
+            sidewalk: IoU: 0.60
+            building: IoU: 0.80
+                wall: IoU: 0.27
+               fence: IoU: 0.25
+                pole: IoU: 0.32
+       traffic light: IoU: 0.30
+        traffic sign: IoU: 0.43
+          vegetation: IoU: 0.85
+             terrain: IoU: 0.40
+                 sky: IoU: 0.84
+              person: IoU: 0.54
+               rider: IoU: 0.32
+                 car: IoU: 0.84
+               truck: IoU: 0.28
+                 bus: IoU: 0.41
+               train: IoU: 0.10
+          motorcycle: IoU: 0.21
+             bicycle: IoU: 0.50
+                misc: IoU: 0.60
+                mean: IoU: 0.49
+Validation Loss: 0.5916
+Evaluating model at epoch 35, training loss was 0.3542136651438636
+...............
+                road: IoU: 0.89
+            sidewalk: IoU: 0.60
+            building: IoU: 0.81
+                wall: IoU: 0.28
+               fence: IoU: 0.26
+                pole: IoU: 0.34
+       traffic light: IoU: 0.32
+        traffic sign: IoU: 0.45
+          vegetation: IoU: 0.85
+             terrain: IoU: 0.41
+                 sky: IoU: 0.86
+              person: IoU: 0.54
+               rider: IoU: 0.33
+                 car: IoU: 0.84
+               truck: IoU: 0.30
+                 bus: IoU: 0.42
+               train: IoU: 0.11
+          motorcycle: IoU: 0.21
+             bicycle: IoU: 0.53
+                misc: IoU: 0.61
+                mean: IoU: 0.50
+Validation Loss: 0.6081
+Evaluating model at epoch 42, training loss was 0.3452244099732992
+...............
+                road: IoU: 0.89
+            sidewalk: IoU: 0.60
+            building: IoU: 0.80
+                wall: IoU: 0.29
+               fence: IoU: 0.26
+                pole: IoU: 0.34
+       traffic light: IoU: 0.31
+        traffic sign: IoU: 0.43
+          vegetation: IoU: 0.85
+             terrain: IoU: 0.41
+                 sky: IoU: 0.84
+              person: IoU: 0.53
+               rider: IoU: 0.33
+                 car: IoU: 0.85
+               truck: IoU: 0.31
+                 bus: IoU: 0.42
+               train: IoU: 0.11
+          motorcycle: IoU: 0.21
+             bicycle: IoU: 0.52
+                misc: IoU: 0.61
+                mean: IoU: 0.49
+Validation Loss: 0.6033
+Evaluating model at epoch 49, training loss was 0.33955487979424964
+...............
+                road: IoU: 0.89
+            sidewalk: IoU: 0.60
+            building: IoU: 0.81
+                wall: IoU: 0.28
+               fence: IoU: 0.24
+                pole: IoU: 0.34
+       traffic light: IoU: 0.32
+        traffic sign: IoU: 0.44
+          vegetation: IoU: 0.85
+             terrain: IoU: 0.41
+                 sky: IoU: 0.85
+              person: IoU: 0.53
+               rider: IoU: 0.33
+                 car: IoU: 0.84
+               truck: IoU: 0.31
+                 bus: IoU: 0.42
+               train: IoU: 0.11
+          motorcycle: IoU: 0.20
+             bicycle: IoU: 0.49
+                misc: IoU: 0.61
+                mean: IoU: 0.49
+Validation Loss: 0.6249
+Evaluating model at epoch 56, training loss was 0.3296449150588061
+...............
+                road: IoU: 0.89
+            sidewalk: IoU: 0.60
+            building: IoU: 0.80
+                wall: IoU: 0.27
+               fence: IoU: 0.25
+                pole: IoU: 0.33
+       traffic light: IoU: 0.31
+        traffic sign: IoU: 0.41
+          vegetation: IoU: 0.85
+             terrain: IoU: 0.41
+                 sky: IoU: 0.84
+              person: IoU: 0.54
+               rider: IoU: 0.33
+                 car: IoU: 0.84
+               truck: IoU: 0.29
+                 bus: IoU: 0.41
+               train: IoU: 0.11
+          motorcycle: IoU: 0.20
+             bicycle: IoU: 0.51
+                misc: IoU: 0.61
+                mean: IoU: 0.49
+Validation Loss: 0.6269
+Evaluating model at epoch 63, training loss was 0.3280303367086359
+...............
+                road: IoU: 0.89
+            sidewalk: IoU: 0.60
+            building: IoU: 0.81
+                wall: IoU: 0.28
+               fence: IoU: 0.26
+                pole: IoU: 0.34
+       traffic light: IoU: 0.31
+        traffic sign: IoU: 0.43
+          vegetation: IoU: 0.85
+             terrain: IoU: 0.41
+                 sky: IoU: 0.85
+              person: IoU: 0.54
+               rider: IoU: 0.33
+                 car: IoU: 0.85
+               truck: IoU: 0.30
+                 bus: IoU: 0.42
+               train: IoU: 0.11
+          motorcycle: IoU: 0.20
+             bicycle: IoU: 0.51
+                misc: IoU: 0.61
+                mean: IoU: 0.49
+Validation Loss: 0.6338
+Evaluating model at epoch 70, training loss was 0.3264924104149277
+...............
+                road: IoU: 0.89
+            sidewalk: IoU: 0.61
+            building: IoU: 0.80
+                wall: IoU: 0.28
+               fence: IoU: 0.26
+                pole: IoU: 0.33
+       traffic light: IoU: 0.31
+        traffic sign: IoU: 0.43
+          vegetation: IoU: 0.85
+             terrain: IoU: 0.41
+                 sky: IoU: 0.85
+              person: IoU: 0.54
+               rider: IoU: 0.33
+                 car: IoU: 0.85
+               truck: IoU: 0.30
+                 bus: IoU: 0.42
+               train: IoU: 0.11
+          motorcycle: IoU: 0.20
+             bicycle: IoU: 0.51
+                misc: IoU: 0.61
+                mean: IoU: 0.49
+Validation Loss: 0.6380
+Evaluating model at epoch 77, training loss was 0.3237940433863047
+...............
+                road: IoU: 0.89
+            sidewalk: IoU: 0.60
+            building: IoU: 0.80
+                wall: IoU: 0.27
+               fence: IoU: 0.25
+                pole: IoU: 0.34
+       traffic light: IoU: 0.31
+        traffic sign: IoU: 0.43
+          vegetation: IoU: 0.85
+             terrain: IoU: 0.41
+                 sky: IoU: 0.85
+              person: IoU: 0.54
+               rider: IoU: 0.33
+                 car: IoU: 0.85
+               truck: IoU: 0.29
+                 bus: IoU: 0.41
+               train: IoU: 0.11
+          motorcycle: IoU: 0.20
+             bicycle: IoU: 0.50
+                misc: IoU: 0.61
+                mean: IoU: 0.49
+Validation Loss: 0.6371
+Evaluating model at epoch 84, training loss was 0.3232483688238505
+...............
+                road: IoU: 0.89
+            sidewalk: IoU: 0.60
+            building: IoU: 0.80
+                wall: IoU: 0.27
+               fence: IoU: 0.25
+                pole: IoU: 0.33
+       traffic light: IoU: 0.31
+        traffic sign: IoU: 0.42
+          vegetation: IoU: 0.85
+             terrain: IoU: 0.40
+                 sky: IoU: 0.85
+              person: IoU: 0.54
+               rider: IoU: 0.33
+                 car: IoU: 0.85
+               truck: IoU: 0.29
+                 bus: IoU: 0.41
+               train: IoU: 0.11
+          motorcycle: IoU: 0.19
+             bicycle: IoU: 0.50
+                misc: IoU: 0.61
+                mean: IoU: 0.49
+Validation Loss: 0.6349
+Evaluating model at epoch 91, training loss was 0.3234903018216829
+...............
+                road: IoU: 0.89
+            sidewalk: IoU: 0.60
+            building: IoU: 0.80
+                wall: IoU: 0.27
+               fence: IoU: 0.25
+                pole: IoU: 0.33
+       traffic light: IoU: 0.31
+        traffic sign: IoU: 0.43
+          vegetation: IoU: 0.85
+             terrain: IoU: 0.41
+                 sky: IoU: 0.85
+              person: IoU: 0.54
+               rider: IoU: 0.33
+                 car: IoU: 0.85
+               truck: IoU: 0.29
+                 bus: IoU: 0.42
+               train: IoU: 0.11
+          motorcycle: IoU: 0.20
+             bicycle: IoU: 0.50
+                misc: IoU: 0.61
+                mean: IoU: 0.49
+Validation Loss: 0.6355
+Evaluating model at epoch 98, training loss was 0.3217314929575533
+...............
+                road: IoU: 0.89
+            sidewalk: IoU: 0.60
+            building: IoU: 0.80
+                wall: IoU: 0.27
+               fence: IoU: 0.25
+                pole: IoU: 0.33
+       traffic light: IoU: 0.31
+        traffic sign: IoU: 0.42
+          vegetation: IoU: 0.85
+             terrain: IoU: 0.41
+                 sky: IoU: 0.85
+              person: IoU: 0.54
+               rider: IoU: 0.33
+                 car: IoU: 0.85
+               truck: IoU: 0.29
+                 bus: IoU: 0.41
+               train: IoU: 0.11
+          motorcycle: IoU: 0.20
+             bicycle: IoU: 0.51
+                misc: IoU: 0.61
+                mean: IoU: 0.49
+Validation Loss: 0.6379
+Evaluting best model (0.5916042703837157)
+...............
+                road: IoU: 0.89
+            sidewalk: IoU: 0.60
+            building: IoU: 0.80
+                wall: IoU: 0.27
+               fence: IoU: 0.25
+                pole: IoU: 0.32
+       traffic light: IoU: 0.30
+        traffic sign: IoU: 0.43
+          vegetation: IoU: 0.85
+             terrain: IoU: 0.40
+                 sky: IoU: 0.84
+              person: IoU: 0.54
+               rider: IoU: 0.32
+                 car: IoU: 0.84
+               truck: IoU: 0.28
+                 bus: IoU: 0.41
+               train: IoU: 0.10
+          motorcycle: IoU: 0.21
+             bicycle: IoU: 0.50
+                misc: IoU: 0.60
+                mean: IoU: 0.49
+Final Validation Loss: 0.5916
+Finished Training gaussian
